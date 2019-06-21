@@ -3,7 +3,10 @@
 	$dua=$_POST['dua'];
 	$tiga=$_POST['tiga'];
 	$empat=$_POST['empat'];
-    $lima=$_POST['lima'];	
+  $lima=$_POST['lima'];
+
+	$rumus = $_POST['select_rumus'];
+
 	$operator=$_POST['operator'];
 	$cmtotal=($satu*$dua)-($satu*$tiga);
 	$cmunit=($dua)-($tiga);
@@ -12,7 +15,17 @@
 	$tpunit=($empat+$lima)/$cmunit;
 	$tpsales=($empat+$lima)/($cmpersen/100);
 	$cfcunit=($empat+$lima)/$cmunit;
-	
+
+	if($rumus == "bep"){
+
+	} else if($rumus == "cma"){
+
+	} else if($rumus == "tp"){
+
+	} else {
+
+	}
+
 	if ($operator=="Pilih Salah Satu !")
 	{
 		echo "Maaf Anda Tidak Memilih Operator..!";
