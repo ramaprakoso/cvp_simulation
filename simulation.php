@@ -25,20 +25,48 @@
           <input type="text" class="form-control" name ='empat' id="fix_cost" placeholder="Fix Cost Per Bulan">
         </div>
       </div>
+      <div class="form-group" id="total_unit_tahun_group">
+        <label class="col-sm-8 col-form-label"><b>Total Unit Yang Terjual Per Tahun</b></label>
+        <div class="col-sm-12">
+          <input type="text" class="form-control" name ='lima' id="total_unit_tahun" placeholder="Total Unit Yang Terjual Per Tahun">
+        </div>
+      </div>
       <div class="form-group" id="company_target_group">
         <label class="col-sm-8 col-form-label"><b>Company Target</b></label>
         <div class="col-sm-12">
-          <input type="text" class="form-control" name ='lima' id="company_target" placeholder="Company Target">
+          <input type="text" class="form-control" name ='enam' id="company_target" placeholder="Company Target">
+        </div>
+      </div>
+      <div class="form-group" id="change_fix_cost_group">
+        <label class="col-sm-8 col-form-label"><b>Changes in Fixed Cost</b></label>
+        <div class="col-sm-12">
+          <input type="text" class="form-control" name ='tujuh' id="change_fix_cost" placeholder="Change Fix Cost">
+        </div>
+      </div>
+      <div class="form-group" id="change_variable_per_unit_group">
+        <label class="col-sm-8 col-form-label"><b>Changes in Variable per unit</b></label>
+        <div class="col-sm-12">
+          <input type="text" class="form-control" name ='delapan' id="change_variable_per_unit" placeholder="Changes in Variable per unit">
+        </div>
+      </div>
+      <div class="form-group" id="change_in_sales_price_group">
+        <label class="col-sm-8 col-form-label"><b>Changes in Sales Price</b></label>
+        <div class="col-sm-12">
+          <input type="text" class="form-control" name ='sembilan' id="change_in_sales_price" placeholder="Changes in Sales Price">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-8 col-form-label"><b>Pilih Perhitungan</b></label>
         <div class="col-sm-12">
-          <select class="custom-select"  name="operator" id="operator">
-            <option selected value="bep">Break Event Point</option>
+          <select class="custom-select" name="operator" id="operator">
+            <option selected value="default">Pilih Simulasi</option>
+            <option value="bep">Break Event Point</option>
             <option value="cma">Contribution Margin Approach</option>
             <option value="tp">Total Provit</option>
             <option value="cfc">Change in Fix Cost</option>
+            <option value="cfpu">Changed in Variable Per Unit</option>
+    				<option value="csp">Changed in Sales Price</option>
+    				<option value="ms">Margin Safety</option>
           </select>
         </div>
       </div>
