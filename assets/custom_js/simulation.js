@@ -149,12 +149,11 @@ $(document).ready(function(){
         $("#harga_jual_group").show()
         $("#harga_variabel_group").show()
         $("#fix_cost_group").show()
-        $("#total_unit_tahun_group").hide()
+        $("#total_unit_tahun_group").show()
         $("#company_target_group").hide()
-        $("#change_fix_cost_group").show()
+        $("#change_fix_cost_group").hide()
         $("#change_variable_per_unit_group").hide()
         $("#change_in_sales_price_group").hide()
-
       } else if (operator == "cfpu"){
         $("#total_unit_group").hide()
         $("#harga_jual_group").show()
@@ -270,6 +269,8 @@ $(document).ready(function(){
         // $("#hasil").text(satu-dua);
       }
     });
+
+
 });
 
 function reset()

@@ -72,7 +72,7 @@
       </div>
       <div class="form-group float-right">
         <div class="col-sm-12">
-           <button type="reset" class="btn btn-warning" onclick="reset()">Reset</button>
+           <button class="btn btn-warning" onclick="reset()">Reset</button>
            <!-- <input type="submit" name = 'simpan' class="btn btn-primary" Value="Hitung"> -->
 
            <button type="submit" class="btn btn-primary">Hitung</button>
