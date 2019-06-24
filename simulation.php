@@ -28,13 +28,13 @@
       <div class="form-group" id="total_unit_tahun_group">
         <label class="col-sm-8 col-form-label"><b>Total Unit Yang Terjual Per Tahun</b></label>
         <div class="col-sm-12">
-          <input type="text" class="form-control" name ='lima' id="total_unit_tahun" placeholder="Total Unit Yang Terjual Per Tahun">
+          <input type="text" class="form-control" name ='enam' id="total_unit_tahun" placeholder="Total Unit Yang Terjual Per Tahun">
         </div>
       </div>
       <div class="form-group" id="company_target_group">
         <label class="col-sm-8 col-form-label"><b>Company Target</b></label>
         <div class="col-sm-12">
-          <input type="text" class="form-control" name ='enam' id="company_target" placeholder="Company Target">
+          <input type="text" class="form-control" name ='lima' id="company_target" placeholder="Company Target">
         </div>
       </div>
       <div class="form-group" id="change_fix_cost_group">

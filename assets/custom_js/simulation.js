@@ -181,8 +181,8 @@ $(document).ready(function(){
         $("#harga_jual_group").show()
         $("#harga_variabel_group").hide()
         $("#fix_cost_group").hide()
-        $("#total_unit_tahun_group").hide()
-        $("#company_target_group").show()
+        $("#total_unit_tahun_group").show()
+        $("#company_target_group").hide()
         $("#change_fix_cost_group").hide()
         $("#change_variable_per_unit_group").hide()
         $("#change_in_sales_price_group").hide()
@@ -196,8 +196,8 @@ $(document).ready(function(){
       var dua = parseInt($("#harga_jual").val().replace(/\./g,''));
       var tiga = parseInt($("#harga_variabel").val().replace(/\./g,''));
       var empat = parseInt($("#fix_cost").val().replace(/\./g,''));
-      var lima = parseInt($("#total_unit_tahun").val().replace(/\./g,''));
-      var enam = parseInt($("#company_target").val().replace(/\./g,''));
+      var enam = parseInt($("#total_unit_tahun").val().replace(/\./g,''));
+      var lima = parseInt($("#company_target").val().replace(/\./g,''));
       var tujuh = parseInt($("#change_fix_cost").val().replace(/\./g,''));
       var delapan = parseInt($("#change_variable_per_unit").val().replace(/\./g,''));
       var sembilan = parseInt($("#change_in_sales_price").val().replace(/\./g,''));
